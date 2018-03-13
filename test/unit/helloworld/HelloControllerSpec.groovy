@@ -20,6 +20,6 @@ class HelloControllerSpec extends Specification {
         controller.hello()
 
         then:
-        response.text == 'hello'
+        response.text == 'hello1'
     }
 }

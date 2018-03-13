@@ -199,7 +199,7 @@ if [ ! -d "$GRAILS_AGENT_CACHE_DIR" ]; then
 fi
 
 # Process JVM args
-AGENT_STRING="-javaagent:wrapper/springloaded-1.2.0.RELEASE.jar -noverify -Dspringloaded.synchronize=true -Djdk.reflect.allowGetCallerClass=true -Dspringloaded=$SPRINGLOADED_PARAMS"
+AGENT_STRING="-javaagent:wrapper/springloaded-1.2.6.RELEASE.jar -noverify -Dspringloaded.synchronize=true -Djdk.reflect.allowGetCallerClass=true -Dspringloaded=$SPRINGLOADED_PARAMS"
 CMD_LINE_ARGS=""
 DISABLE_RELOADING=true
 
